@@ -9,7 +9,20 @@
   }
 
   /* common shared style start */
-  .btn-primary {}
+  .btn-primary {
+      border: none;
+      border-radius: 8px;
+      background-color: #FF900E;
+      padding: 15px 25px;
+      color: #FFF;
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: 600;
+      cursor: pointer;
+  }
+  .btn-primary:hover{
+    background-color: cornflowerblue;
+  }
 
   /* header style start */
   header {
@@ -69,8 +82,34 @@
       font-size: 1rem;
       font-weight: 400;
       line-height: 26px;
+      margin-bottom: 20px;
   }
 
   #btn-banner {}
 
-  .banner-image {}
+  .banner-image {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  /* responsive style media queries */
+  /* Mobile devices related style */
+
+  @media screen and (max-width: 576px) {
+    header{
+        padding:20px;
+    }
+    nav{
+        flex-direction:column;
+    }
+  }
+
+  /* Tablet or medium devices related style */
+  @media screen and (min-width:576px) and (max-width:960px){
+    header{
+        padding:20px;
+    }
+    nav{
+        flex-direction:column;
+    }
+  }
