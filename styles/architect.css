@@ -243,7 +243,7 @@
       font-weight: 700;
   }
 
-  .fact-discription {
+  .fact-description {
       max-width: 542px;
       color: #727272;
       font-weight: 400;
@@ -289,7 +289,7 @@
 
   .sponsors-content {
       text-align: center;
-      /* padding: 0 300px; */
+      padding: 0 300px;
       margin-bottom: 50px;
   }
 
@@ -367,10 +367,18 @@
 
       .love-container {
           flex-direction: column;
+          margin: 130px 30px 50px 50px;
       }
 
       .l-image {
           width: 100%;
+      }
+      .ten-years-badge{
+        position: static;
+        width: 260px;
+      }
+      .fact-container{
+        width: 320px;
       }
 
       .fact-card-container {
