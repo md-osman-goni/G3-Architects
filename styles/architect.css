@@ -152,6 +152,84 @@
       margin-bottom: 20px;
   }
 
+  .love-container {
+      margin: 130px 80px 50px 100px;
+      display: flex;
+      gap: 80px;
+  }
+
+  .love-content {}
+
+  .love-box {}
+
+  .love-title {
+      border-left: 4px solid #FF900E;
+      color: #131313;
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      padding-left: 20px;
+  }
+
+  .love-description {
+      color: #727272;
+      font-family: Work Sans;
+      font-weight: 400;
+      line-height: 26px;
+  }
+
+  .love-card {
+      margin-top: 50px;
+      border-radius: 8px;
+      background-color: #FFF;
+      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  }
+
+  .love-card-title {
+      margin-bottom: 10px;
+      color: #131313;
+      font-size: 1.25rem;
+      font-weight: 600;
+  }
+
+  .love-card-description {
+      color: #727272;
+      font-weight: 400;
+      line-height: 26px;
+  }
+
+  .love-image {}
+
+  .l-image {
+      max-width: 600px;
+      max-height: 950px;
+  }
+
+  .ten-years-badge {
+      border-radius: 8px;
+      background-color: #FF900E;
+      text-align: center;
+      width: 300px;
+      padding: 30px;
+      position: relative;
+      bottom: 100px;
+      right: 70px;
+  }
+
+  .ten-years-badge h2 {
+      color: #FFF;
+      font-size: 4rem;
+      font-weight: 700;
+      line-height: 70px;
+  }
+
+  .ten-years-badge p {
+      color: #FFF;
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 40px;
+  }
+
   .fact {}
 
   .fact-container {
@@ -241,7 +319,7 @@
   }
 
   .footer {
-      border-radius: 10px ;
+      border-radius: 10px;
       background-color: #FFF4E7;
       text-align: center;
       margin: 100px 200px;
@@ -287,6 +365,14 @@
           margin: 0;
       }
 
+      .love-container {
+          flex-direction: column;
+      }
+
+      .l-image {
+          width: 100%;
+      }
+
       .fact-card-container {
           flex-direction: column;
           align-items: center;
@@ -300,8 +386,9 @@
           flex-direction: column;
           align-items: center;
       }
-      .footer{
-        margin:20px 20px 100px;
+
+      .footer {
+          margin: 20px 20px 100px;
       }
 
   }
@@ -324,6 +411,14 @@
           margin: 0;
       }
 
+      .love-container {
+          flex-direction: column;
+      }
+
+      .l-image {
+          width: 100%;
+      }
+
       .fact-card-container {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -338,8 +433,8 @@
           flex-direction: column;
           align-items: center;
       }
-      
-      .footer{
-        margin:20px 50px 100px;
+
+      .footer {
+          margin: 20px 50px 100px;
       }
   }
