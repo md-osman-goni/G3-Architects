@@ -154,7 +154,10 @@
 
   .fact {}
 
-  .fact-container {}
+  .fact-container {
+    margin-top: 60px;
+    margin-left: 30px;
+  }
 
   .fact-title {
       color: #131313;
@@ -182,6 +185,7 @@
       text-align: center;
       align-items: center;
       padding: 40px 0;
+      margin: 10px;
   }
 
   .card-image {
@@ -233,6 +237,10 @@
       .features-images-container {
           margin: 0;
       }
+      .fact-card-container{
+        flex-direction:column;
+        align-items: center;
+      }
 
   }
 
@@ -252,5 +260,11 @@
 
       .features-images-container {
           margin: 0;
+      }
+      
+      .fact-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 40px;
       }
   }
