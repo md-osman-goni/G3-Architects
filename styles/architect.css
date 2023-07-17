@@ -240,6 +240,20 @@
       padding: 30px;
   }
 
+  .footer {
+      border-radius: 10px ;
+      background-color: #FFF4E7;
+      text-align: center;
+      margin: 100px 200px;
+      padding: 25px;
+  }
+
+  .footer-description {
+      color: #424242;
+      font-size: 1.25rem;
+      font-weight: 400;
+  }
+
 
 
   /* features section related style end */
@@ -281,9 +295,13 @@
       .sponsors-content {
           padding: 0 30px;
       }
-      .sponsors-logos{
-        flex-direction: column;
-        align-items: center;
+
+      .sponsors-logos {
+          flex-direction: column;
+          align-items: center;
+      }
+      .footer{
+        margin:20px 20px 100px;
       }
 
   }
@@ -315,8 +333,13 @@
       .sponsors-content {
           padding: 0 30px;
       }
-      .sponsors-logos{
-        flex-direction: column;
-        align-items: center;
+
+      .sponsors-logos {
+          flex-direction: column;
+          align-items: center;
+      }
+      
+      .footer{
+        margin:20px 50px 100px;
       }
   }
